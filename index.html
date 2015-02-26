@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="error"></div>
+
+    <div>
+      <h2>Your Hand</h2>
+      <input type="button" id="draw" value="draw" />
+      <input type="button" id="discard" value="discard" />
+      <br><br>
+      <div id="yourHand"></div>
+    </div>
+
+    <div>
+      <h2><br>Card Deck</h2>
+      <input type="button" id="shuffle" value="shuffle" />
+      <input type="button" id="deal" value="deal" />
+      <br><br>
+      <div id="cardDeck"></div>
+    </div>
+
+    <div>
+      <h2><br>Discard Pile</h2>
+      <br><br>
+      <div id="discardPile"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="card.js"></script>
+  <script type="text/javascript" src="deck.js"></script>
+  <script type="text/javascript" src="player.js"></script>
+  <script type="text/javascript" src="card_collection.js"></script>
+</body>
+</html>

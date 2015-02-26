@@ -1,0 +1,23 @@
+body {
+  font-family: "Times New Roman", "Comic Sans", Helvetica, Arial;
+  background-color: #200439;
+  color: #000000;
+}
+
+#container {
+  margin: 0 auto;
+  width: 860px;
+  color: #ffffff;
+}
+
+h2 {
+  clear: both;
+}
+
+#error {
+  display: none;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
